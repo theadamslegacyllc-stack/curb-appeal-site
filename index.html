@@ -11,48 +11,56 @@
     <header class="bg-blue-700 text-white py-16 px-6 text-center">
         <h1 class="text-4xl font-bold uppercase tracking-tight">Curb Appeal Digital</h1>
         <p class="mt-4 text-xl font-light">We put your business on the map. Literally.</p>
-        <a href="#contact" class="mt-8 inline-block bg-white text-blue-700 px-8 py-3 rounded-full font-bold uppercase text-sm hover:bg-gray-100 transition">Get a Free Audit</a>
+        <a href="#audit-form" class="mt-8 inline-block bg-white text-blue-700 px-8 py-3 rounded-full font-bold uppercase text-sm hover:bg-gray-100 transition">Get a Free Audit</a>
     </header>
-
-    <section class="py-16 px-6 max-w-4xl mx-auto text-center">
-        <h2 class="text-3xl font-bold text-blue-800">Is Your Business Invisible?</h2>
-        <p class="mt-4 text-lg text-gray-600">In 2026, if Google's AI doesn't see your profile as "active," it skips you. We optimize your profile so customers click <strong>Call</strong> instead of scrolling past.</p>
-    </section>
 
     <section class="py-12 px-6 bg-white">
         <div class="max-w-6xl mx-auto grid md:grid-cols-2 gap-8">
-            <div class="border-2 border-gray-100 p-8 rounded-2xl shadow-sm hover:shadow-md transition">
-                <span class="bg-blue-100 text-blue-700 px-3 py-1 rounded-full text-xs font-bold uppercase">One-Time</span>
-                <h3 class="text-2xl font-bold mt-4">The First Impression</h3>
-                <p class="text-3xl font-bold text-blue-700 mt-2">$299</p>
-                <ul class="mt-6 space-y-3 text-gray-600">
-                    <li>✓ Full Profile Audit & Clean-up</li>
-                    <li>✓ 20 High-Res Action Photos</li>
-                    <li>✓ AI-Optimized Business Bio</li>
-                    <li>✓ Review Backlog Management</li>
-                </ul>
+            <div class="border-2 border-gray-100 p-8 rounded-2xl">
+                <h3 class="text-xl font-bold">The First Impression</h3>
+                <p class="text-blue-700 font-bold">$299</p>
+                <p class="mt-2 text-sm text-gray-500">One-time profile cleanup & professional photos.</p>
             </div>
-
-            <div class="border-2 border-blue-600 p-8 rounded-2xl shadow-lg relative bg-blue-50">
-                <span class="bg-blue-600 text-white px-3 py-1 rounded-full text-xs font-bold uppercase">Most Popular</span>
-                <h3 class="text-2xl font-bold mt-4 text-blue-900">Neighborhood Authority</h3>
-                <p class="text-3xl font-bold text-blue-700 mt-2">$149<span class="text-sm text-gray-500">/mo</span></p>
-                <ul class="mt-6 space-y-3 text-gray-600">
-                    <li>✓ Weekly Google Updates & Posts</li>
-                    <li>✓ 24-Hour Review Responses</li>
-                    <li>✓ Custom Q&A Management</li>
-                    <li>✓ Monthly Performance Reports</li>
-                </ul>
+            <div class="border-2 border-blue-600 p-8 rounded-2xl bg-blue-50">
+                <h3 class="text-xl font-bold">Neighborhood Authority</h3>
+                <p class="text-blue-700 font-bold">$149/mo</p>
+                <p class="mt-2 text-sm text-gray-500">Weekly updates & review management.</p>
             </div>
         </div>
     </section>
 
-    <section id="contact" class="py-20 px-6 bg-gray-900 text-white text-center">
-        <h2 class="text-3xl font-bold">Ready to Start?</h2>
-        <p class="mt-4 text-gray-400">Text "AUDIT" to <strong>(804) 609-0242</strong></p>
-        <p class="mt-2 text-gray-400">or email <strong>curbappealdigitalllc@gmail.com</strong></p>
-        <div class="mt-10 text-xs text-gray-600 uppercase tracking-widest">Curb Appeal Digital &copy; 2026</div>
+    <section id="audit-form" class="py-16 px-6 max-w-2xl mx-auto">
+        <div class="bg-white p-8 rounded-3xl shadow-xl border border-gray-100">
+            <h2 class="text-3xl font-bold text-center text-blue-800">Claim Your Free Audit</h2>
+            <p class="text-center text-gray-600 mt-2 mb-8">We'll analyze your Google profile and tell you exactly why you aren't ranking #1.</p>
+            
+            <form action="https://formspree.io/f/curbappealdigitalllc@gmail.com" method="POST" class="space-y-4">
+                <div>
+                    <label class="block text-sm font-semibold mb-1">Business Name</label>
+                    <input type="text" name="business_name" required class="w-full p-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 outline-none">
+                </div>
+                <div>
+                    <label class="block text-sm font-semibold mb-1">Your Name</label>
+                    <input type="text" name="name" required class="w-full p-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 outline-none">
+                </div>
+                <div>
+                    <label class="block text-sm font-semibold mb-1">Email Address</label>
+                    <input type="email" name="email" required class="w-full p-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 outline-none">
+                </div>
+                <div>
+                    <label class="block text-sm font-semibold mb-1">Phone Number (Optional)</label>
+                    <input type="tel" name="phone" class="w-full p-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 outline-none">
+                </div>
+                <button type="submit" class="w-full bg-blue-700 text-white font-bold py-4 rounded-lg hover:bg-blue-800 transition shadow-lg">
+                    Send My Free Audit
+                </button>
+            </form>
+        </div>
     </section>
+
+    <footer class="py-10 text-center text-gray-500 text-sm">
+        Curb Appeal Digital &copy; 2026 | Professional GMB Optimization
+    </footer>
 
 </body>
 </html>
